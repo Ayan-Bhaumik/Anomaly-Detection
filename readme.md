@@ -1,104 +1,158 @@
-# 🚀 Federated IoT Anomaly Detection
-### Privacy-Preserving Threat Detection for IoT Networks using Federated Learning
+# 🚀 Federated IoT Anomaly Detection  
+### 🔒 Privacy-Preserving Threat Detection for IoT Networks using Federated Learning
 
 <div align="center">
-  
-[![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)
-[![TensorFlow](https://img.shields.io/badge/TensorFlow-2.15-orange)](https://www.tensorflow.org/)
-[![Flower](https://img.shields.io/badge/Flower%20FL-1.4.0-yellowgreen)](https://flower.dev/)
-[![License](https://img.shields.io/badge/License-MIT-brightgreen)](LICENSE)
+
+[![Python](https://img.shields.io/badge/Python-3.8%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![TensorFlow](https://img.shields.io/badge/TensorFlow-2.15-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)](https://www.tensorflow.org/)
+[![Flower](https://img.shields.io/badge/Flower_FL-1.4.0-00B0FF?style=for-the-badge)](https://flower.dev/)
+[![License](https://img.shields.io/badge/License-MIT-brightgreen?style=for-the-badge)](LICENSE)
 
 </div>
 
-## 👨‍💻 Developer
+## 👨💻 **Developer**  
 ### **Ayan Bhaumik**  
-<div align="center">
-  
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=google-chrome&logoColor=white)](https://ayanbhaumik.in/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ayan-bhaumik/)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:connect@ayanbhaumik.in)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Ayan-Bhaumik)
-  
+<div align="center" style="margin:20px 0">
+
+[![Portfolio](https://img.shields.io/badge/🌐_Portfolio-000000?style=for-the-badge&logo=google-chrome&logoColor=white)](https://ayanbhaumik.in/)
+[![LinkedIn](https://img.shields.io/badge/👔_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ayan-bhaumik/)
+[![Email](https://img.shields.io/badge/📧_Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:connect@ayanbhaumik.in)
+[![GitHub](https://img.shields.io/badge/🐙_GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Ayan-Bhaumik)
+
 </div>
 
-## 🌟 Key Features
-- **Federated Learning Framework** - Train across distributed devices without data centralization
-- **Autoencoder Architecture** - Deep neural networks for anomaly detection
-- **UNSW-NB15 Dataset** - Real-world IoT network traffic with attack patterns
-- **Privacy-Preserving** - Only shares model updates, never raw data
-- **Modular Design** - Easily extensible components
+## 🌟 **Key Features**  
+<p align="center">
+  <img src="https://media.giphy.com/media/3o7TKsQ8gqVrXhQ3Hi/giphy.gif" width="200">
+</p>
 
+- 🧩 **Federated Learning Framework** - Collaborative training across distributed devices  
+- 🤖 **Deep Autoencoder Architecture** - Neural networks for intelligent anomaly detection  
+- 🔐 **Privacy by Design** - Never shares raw sensitive data  
+- 🚨 **Real-world IoT Protection** - UNSW-NB15 attack pattern detection  
+- � **Modular System** - Easy to extend and customize  
 
-## 🛠️ Installation
+---
+
+## 🛠️ **Installation**  
 ```bash
-
-# Clone repository
-git clone https://github.com/Ayan-Bhaumik/Anomaly-Detection.git
+# Clone with SSH
+git clone git@github.com:Ayan-Bhaumik/Anomaly-Detection.git
 cd federated-iot-anomaly-detection
 
-# Install dependencies
-
+# Install requirements
 pip install -r requirements.txt
-📂 Project Structure
-Copy
-├── configs/
-│   └── config.yaml            # All configuration parameters
-├── clients/                   # Client implementations
-│   └── client.py              
-├── server/                    # Server implementation
-│   └── server.py             
-├── utils/                     # Core functionality
-│   ├── data_loader.py        # Data processing
-│   └── model.py              # Neural network architecture
-├── data/                      # Dataset storage
-├── models/                    # Trained model weights
-├── main.py                    # Entry point
-└── requirements.txt           # Dependency list
-⚙️ Configuration
-Edit configs/config.yaml to customize:
+```
 
-yaml
-Copy
+---
+
+## 📂 **Project Structure**  
+```bash
+.
+├── 📁 configs/               # Configuration files
+│   └── 🗄️ config.yaml        
+├── 📁 clients/               # Client implementations
+│   └── 🐍 client.py          
+├── 📁 server/               # Server components
+│   └── 🐍 server.py         
+├── 📁 utils/                # Core modules
+│   ├── 🗃️ data_loader.py    
+│   └── 🤖 model.py          
+├── 📁 data/                 # Dataset storage
+├── 📁 models/               # Trained models
+├── 🚀 main.py               # Main entry point
+└── 📜 requirements.txt      # Dependencies
+```
+
+---
+
+## ⚙️ **Configuration**  
+Edit `configs/config.yaml`:
+```yaml
 model:
-  encoder_layers: [128, 64, 32]  # Neural network architecture
-  decoder_layers: [64, 128]
+  encoder: 🧠 [128, 64, 32]  # Neural network architecture
+  decoder: 🤯 [64, 128]
   
 training:
-  epochs: 10                    # Training parameters
-  batch_size: 64
+  epochs: 🔁 10              # Training parameters
+  batch: 📦 64
 
 federation:
-  num_clients: 3                # Number of IoT devices
-  num_rounds: 10                # FL training rounds
-🏃‍♂️ Running the System
+  devices: 📱 3              # IoT devices
+  rounds: ♻️ 10              # Training iterations
+```
 
-# Start the federated learning process
+---
 
+## 🏃 **Running the System**  
+```bash
+# Start federated learning ecosystem
 python main.py
-📊 Performance Metrics
-Metric	Score
-Accuracy	92.4%
-F1-Score	0.91
-Precision	0.93
-Recall	0.89
-Training Time	42 min
-🤝 Contributing
-Contributions are welcome! Please follow these steps:
 
-Fork the repository
+# Expected Output
+🟢 [Server] Listening on 127.0.0.1:8080
+📡 [Client 1] Connected to federation network
+📡 [Client 2] Security handshake completed
+🔄 [Round 1/10] Aggregating knowledge...
+✅ [Evaluation] Accuracy: 92.4% | F1: 0.91
+```
 
-Create your feature branch (git checkout -b feature/AmazingFeature)
+---
 
-Commit your changes (git commit -m 'Add some amazing feature')
+## 📊 **Performance Metrics**  
 
-Push to the branch (git push origin feature/AmazingFeature)
+| Metric        | Score     | Visual               |
+|---------------|-----------|----------------------|
+| **Accuracy**  | 🏆 92.4%  | ▰▰▰▰▰▰▰▰▰▰ 92%      |
+| **F1-Score**  | ⭐ 0.91    | ▰▰▰▰▰▰▰▰▰▱ 91%      |
+| **Precision** | 🎯 0.93    | ▰▰▰▰▰▰▰▰▰▰ 93%      |
+| **Recall**    | 🔍 0.89    | ▰▰▰▰▰▰▰▰▱▱ 89%      |
 
-Open a Pull Request
+---
 
-📜 License
-Distributed under the MIT License. See LICENSE for more information.
+## 🤝 **Contributing**  
+<p align="center">
+  <img src="https://media.giphy.com/media/l1J9RFoDzCDrkqtEc/giphy.gif" width="150">
+</p>
 
-📬 Contact
-For questions or collaborations:
-Email connect@ayanbhaumik.in / mrayanbhaumik@gmail.com
-LinkedIn https://www.linkedin.com/in/ayan-bhaumik/
+1. 🍴 Fork the repository  
+2. 🌿 Create your feature branch  
+```bash
+git checkout -b feature/AmazingFeature
+```
+3. 💾 Commit your changes  
+```bash
+git commit -m 'Add super cool feature'
+```
+4. 🚀 Push to the branch  
+```bash
+git push origin feature/AmazingFeature
+```
+5. 🔄 Open a Pull Request  
+
+---
+
+## 📜 **License**  
+```text
+MIT License
+
+Copyright (c) 2024 Ayan Bhaumik
+
+Permission is hereby granted... (see LICENSE for full text)
+```
+
+---
+
+## 📬 **Contact**  
+
+<div align="center">
+
+[![Email](https://img.shields.io/badge/📨_connect@ayanbhaumik.in-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:connect@ayanbhaumik.in)
+[![LinkedIn](https://img.shields.io/badge/👔_Let's_Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ayan-bhaumik/)
+[![Schedule Meeting](https://img.shields.io/badge/📅_Schedule_Call-00A98F?style=for-the-badge)](https://calendly.com/your-calendar)
+
+</div>
+
+<p align="center">
+  <img src="https://media.giphy.com/media/Ln2dAW9oycjgmTpjXjo/giphy.gif" width="100">
+</p>
