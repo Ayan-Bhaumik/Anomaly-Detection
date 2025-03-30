@@ -33,7 +33,7 @@
 ```bash
 
 # Clone repository
-git clone https://github.com/Ayan-Bhaumik/federated-iot-anomaly-detection.git
+git clone https://github.com/Ayan-Bhaumik/Anomaly-Detection.git
 cd federated-iot-anomaly-detection
 
 # Install dependencies
