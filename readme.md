@@ -28,7 +28,6 @@
 - **Privacy-Preserving** - Only shares model updates, never raw data
 - **Modular Design** - Easily extensible components
 
-![System Architecture](https://i.imgur.com/JQhG8Yl.png)
 
 ## 🛠️ Installation
 ```bash
@@ -101,5 +100,5 @@ Distributed under the MIT License. See LICENSE for more information.
 
 📬 Contact
 For questions or collaborations:
-Email
-LinkedIn
+Email connect@ayanbhaumik.in / mrayanbhaumik@gmail.com
+LinkedIn https://www.linkedin.com/in/ayan-bhaumik/
