@@ -1,0 +1,7 @@
+tensorflow==2.15.0
+flwr==1.4.0
+numpy==1.24.4
+pandas==2.0.3
+scikit-learn==1.3.2
+matplotlib==3.7.2
+tqdm==4.66.1

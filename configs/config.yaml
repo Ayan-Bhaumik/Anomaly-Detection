@@ -1,0 +1,24 @@
+dataset:
+  name: "UNSW-NB15"
+  url: "https://raw.githubusercontent.com/UNSW-NB15/Dataset/master/UNSW-NB15.csv"
+  features: ['dur', 'proto', 'service', 'state', 'spkts', 'dpkts', 'sbytes', 'dbytes', 'rate', 'sttl', 'dttl']
+  label: "Label"
+
+model:
+  input_dim: null
+  encoder_layers: [128, 64, 32]
+  decoder_layers: [64, 128]
+  activation: "relu"
+  dropout_rate: 0.2
+
+training:
+  epochs: 10
+  batch_size: 64
+  test_size: 0.3
+  random_state: 42
+
+federation:
+  num_clients: 3
+  num_rounds: 10
+  strategy: "FedAvg"
+  server_address: "127.0.0.1:8080"
