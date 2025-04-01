@@ -149,7 +149,6 @@ Permission is hereby granted... (see LICENSE for full text)
 
 [![Email](https://img.shields.io/badge/📨_connect@ayanbhaumik.in-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:connect@ayanbhaumik.in)
 [![LinkedIn](https://img.shields.io/badge/👔_Let's_Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ayan-bhaumik/)
-[![Schedule Meeting](https://img.shields.io/badge/📅_Schedule_Call-00A98F?style=for-the-badge)](https://calendly.com/your-calendar)
 
 </div>
 
