@@ -151,7 +151,3 @@ Permission is hereby granted... (see LICENSE for full text)
 [![LinkedIn](https://img.shields.io/badge/👔_Let's_Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ayan-bhaumik/)
 
 </div>
-
-<p align="center">
-  <img src="https://media.giphy.com/media/Ln2dAW9oycjgmTpjXjo/giphy.gif" width="100">
-</p>
